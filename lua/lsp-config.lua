@@ -8,6 +8,7 @@ end)
 lsp.ensure_installed({
   'tsserver',
   'clangd',
+  'lua_ls',
 })
 
 lsp.nvim_workspace()

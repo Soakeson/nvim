@@ -13,8 +13,11 @@ return {
   { 'aktersnurra/no-clown-fiesta.nvim' },
   { 'Everblush/everblush.vim' },
   { 'joshdick/onedark.vim' },
-  { 'ayu-theme/ayu-vim',
-    config=function()
-      vim.cmd[[colorscheme onedark]]
-    end }
-  }
+  { 'ayu-theme/ayu-vim' },
+  { 'fcpg/vim-fahrenheit' },
+  { 'lloeki/vim-one-colorschemes' },
+  { 'ChristianChiarulli/onedark.nvim',
+    config=function() 
+      vim.cmd[[colorscheme onedark]] 
+    end },
+}

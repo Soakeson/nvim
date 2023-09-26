@@ -36,8 +36,14 @@
   "srcery-vim": { "branch": "master", "commit": "8ea4c4f5caf61ac4ab887fc53eabc916985db881" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "6c921ca12321edaa773e324ef64ea301a1d0da62" },
   "telescope.nvim": { "branch": "0.1.x", "commit": "54930e1abfc94409e1bb9266e752ef8379008592" },
+<<<<<<< Updated upstream
   "twilight.nvim": { "branch": "main", "commit": "8b7b50c0cb2dc781b2f4262a5ddd57571556d1e4" },
+=======
+  "twilight.nvim": { "branch": "main", "commit": "a4843e6e67092a1e6fa9666f02bf0ab59174c1df" },
+  "vim-fahrenheit": { "branch": "master", "commit": "d19d5bc60abe8b5479b62d9ccfc3a42aaebec724" },
+>>>>>>> Stashed changes
   "vim-monochrome": { "branch": "main", "commit": "c4f18812bbdbe640ffddf69e0c5734ec87d6b5e7" },
+  "vim-one-colorschemes": { "branch": "master", "commit": "7fbcf7444577edfc50a5a1d59f3bd9dbeb566098" },
   "yowish.vim": { "branch": "master", "commit": "847901cd19cf3da4f4cc01137dbd9cf56ff9eb63" },
   "zen-mode.nvim": { "branch": "main", "commit": "68f554702de63f4b7b6b6d4bcb10178f41a0acc7" },
   "zenbones.nvim": { "branch": "main", "commit": "491b8a79e0547e181c7c6fb054d778fd595f068c" }
