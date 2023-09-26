@@ -12,7 +12,7 @@ return {
   { 'sainnhe/gruvbox-material' },
   { 'aktersnurra/no-clown-fiesta.nvim' },
   { 'Everblush/everblush.vim' },
-  { 'ChristianChiarulli/onedark.nvim' },
+  { 'joshdick/onedark.vim' },
   { 'ayu-theme/ayu-vim',
     config=function()
       vim.cmd[[colorscheme onedark]]

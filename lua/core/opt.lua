@@ -4,4 +4,4 @@ vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
 vim.wo.number = true
 vim.bo.syntax = true
-vim.cmd[[set t_Co=256]]
+vim.opt.termguicolors = true
