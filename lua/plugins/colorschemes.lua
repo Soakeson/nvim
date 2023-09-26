@@ -10,8 +10,11 @@ return {
   { 'KabbAmine/yowish.vim' },
   { 'srcery-colors/srcery-vim' },
   { 'sainnhe/gruvbox-material' },
-  { 'ChristianChiarulli/onedark.nvim', 
-    config=function() 
-      vim.cmd[[colorscheme onedark]] 
-    end },
-}
+  { 'aktersnurra/no-clown-fiesta.nvim' },
+  { 'Everblush/everblush.vim' },
+  { 'ChristianChiarulli/onedark.nvim' },
+  { 'ayu-theme/ayu-vim',
+    config=function()
+      vim.cmd[[colorscheme onedark]]
+    end }
+  }

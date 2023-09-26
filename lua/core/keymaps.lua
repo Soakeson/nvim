@@ -7,10 +7,18 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 local api = require('nvim-tree.api')
-vim.keymap.set('n', '<leader>b', api.tree.open, {}) 
+vim.keymap.set('n', '<leader>b', api.tree.open, {})
 
 vim.keymap.set('n', '<C-h>', '<C-w>h')
 vim.keymap.set('n', '<C-j>', '<C-w>j')
 vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set('n', '<C-l>', '<C-w>l')
 vim.keymap.set('n', '<leader>n', vim.cmd.nohl )
+
+vim.keymap.set('n', '<leader>y', '"+y')
+vim.keymap.set('v', '<leader>y', '"+y')
+vim.keymap.set('n', '<leader>d', '"_d')
+vim.keymap.set('n', '<leader>p', '"+p')
+
+vim.keymap.set('n', '<leader>l', vim.cmd.BufferLineCycleNext)
+vim.keymap.set('n', '<leader>h', vim.cmd.BufferLineCyclePrev)
