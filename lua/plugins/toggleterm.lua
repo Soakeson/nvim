@@ -3,7 +3,7 @@ return {
   version = '*',
   config = function()
     require('toggleterm').setup{
-      open_mapping = [[<leader>t]],
+      open_mapping = [[<c-\>]],
       direction = 'float',
       shell = vim.o.shell,
       float_opts = {

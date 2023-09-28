@@ -1,5 +1,4 @@
-vim.g.mapleader = " "
-
+vim.g.mapleader = ' '
 require('core/lazy')
 require('lazy').setup('plugins', opts)
 require('lsp-config')
