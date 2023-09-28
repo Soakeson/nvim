@@ -11,7 +11,7 @@ vim.keymap.set('n', 'gd', '<cmd>Telescope lsp_definitions<cr>' )
 
 -- nvim tree commands --
 local api = require('nvim-tree.api')
-vim.keymap.set('n', '<leader>b', api.tree.open, {})
+vim.keymap.set('n', '<leader>t', api.tree.toggle, {})
 
 -- focus windows --
 vim.keymap.set('n', '<C-h>', '<C-w>h')

@@ -11,7 +11,7 @@ return {
   { 'lourenci/github-colors' },
   { 'ayu-theme/ayu-vim',
     config=function()
-      vim.cmd[[colorscheme ayu]]
+      vim.cmd[[colorscheme kanagawa]]
     end }
   }
 
