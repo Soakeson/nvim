@@ -9,9 +9,10 @@ return {
   { 'joshdick/onedark.vim' },
   { 'shaunsingh/moonlight.nvim' },
   { 'lourenci/github-colors' },
+  { 'bluz71/vim-moonfly-colors'},
   { 'ayu-theme/ayu-vim',
     config=function()
-      vim.cmd[[colorscheme kanagawa]]
+      vim.cmd[[colorscheme moonfly]]
     end }
   }
 
