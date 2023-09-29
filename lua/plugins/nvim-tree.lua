@@ -12,12 +12,13 @@ return {
   config = function()
     require('nvim-tree').setup {
       view = {
-        width = 30,
+        preserve_window_proportions = true,
+        width = 40,
         float = {
           enable = true,
           open_win_config = {
             border = 'rounded',
-            height = 45,
+            height = 67,
           }
         },
       },
