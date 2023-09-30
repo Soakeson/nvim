@@ -18,7 +18,7 @@ return {
           enable = true,
           open_win_config = {
             border = 'rounded',
-            height = 67,
+            height = 48,
           }
         },
       },

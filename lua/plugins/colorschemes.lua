@@ -10,6 +10,7 @@ return {
   { 'shaunsingh/moonlight.nvim' },
   { 'lourenci/github-colors' },
   { 'bluz71/vim-moonfly-colors'},
+  { 'w0ng/vim-hybrid' },
   { 'ayu-theme/ayu-vim',
     config=function()
       vim.cmd[[colorscheme moonfly]]
