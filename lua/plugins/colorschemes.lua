@@ -13,7 +13,7 @@ return {
   { 'w0ng/vim-hybrid' },
   { 'ayu-theme/ayu-vim',
     config=function()
-      vim.cmd[[colorscheme moonfly]]
+      vim.cmd[[colorscheme no-clown-fiesta]]
     end }
   }
 

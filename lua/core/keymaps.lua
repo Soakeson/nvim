@@ -28,5 +28,5 @@ vim.keymap.set('n', '<leader>d', '"_d')
 vim.keymap.set('n', '<leader>p', '"+p')
 
 -- buffer line commands --
-vim.keymap.set('n', '<C-]>', vim.cmd.BufferLineCycleNext)
-vim.keymap.set('n', '<C-[>', vim.cmd.BufferLineCyclePrev)
+vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext)
+vim.keymap.set('n', '<C-p>', vim.cmd.BufferLineCyclePrev)
