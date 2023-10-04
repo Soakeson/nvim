@@ -4,6 +4,7 @@ vim.keymap.set('i', 'jk', '<esc>')
 -- telescope keymap --
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fa', "<cmd>lua require'telescope.builtin'.find_files({ find_command = { 'rg', '--files', '--hidden', '-g', '!.git' }})<cr>", {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
@@ -28,5 +29,5 @@ vim.keymap.set('n', '<leader>d', '"_d')
 vim.keymap.set('n', '<leader>p', '"+p')
 
 -- buffer line commands --
-vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext)
+vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext, {})
 vim.keymap.set('n', '<C-p>', vim.cmd.BufferLineCyclePrev)
