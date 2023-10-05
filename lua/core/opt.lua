@@ -6,3 +6,4 @@ vim.wo.number = true
 vim.bo.syntax = true
 vim.opt.termguicolors = true
 vim.wo.relativenumber = true
+vim.opt.cursorlineopt = 'number'
