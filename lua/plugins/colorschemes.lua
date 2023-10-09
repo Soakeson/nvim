@@ -12,6 +12,7 @@ return {
   { 'bluz71/vim-moonfly-colors'},
   { 'w0ng/vim-hybrid' },
   { 'lunacookies/vim-corvine' },
+  { 'xero/miasma.nvim' },
   { 'ayu-theme/ayu-vim',
     config=function()
       vim.cmd[[colorscheme no-clown-fiesta]]
