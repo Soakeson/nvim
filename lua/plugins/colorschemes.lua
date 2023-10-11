@@ -13,6 +13,7 @@ return {
   { 'w0ng/vim-hybrid' },
   { 'lunacookies/vim-corvine' },
   { 'xero/miasma.nvim' },
+  { 'tomasiser/vim-code-dark'},
   { 'ayu-theme/ayu-vim',
     config=function()
       vim.cmd[[colorscheme no-clown-fiesta]]
