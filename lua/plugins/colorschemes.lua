@@ -3,16 +3,16 @@ return {
   { 'rebelot/kanagawa.nvim' },
   { 'sainnhe/everforest' },
   { 'sainnhe/gruvbox-material' },
-  { 'aktersnurra/no-clown-fiesta.nvim' },
+  { 'projekt0n/github-nvim-theme' },
   { 'joshdick/onedark.vim' },
   { 'shaunsingh/moonlight.nvim' },
   { 'bluz71/vim-moonfly-colors'},
   { 'w0ng/vim-hybrid' },
   { 'xero/miasma.nvim' },
   { 'tomasiser/vim-code-dark'},
-  { 'projekt0n/github-nvim-theme' },
+  { 'ayu-theme/ayu-vim' },
   { 'kvrohit/rasmus.nvim' },
-  { 'ayu-theme/ayu-vim',
+  { 'aktersnurra/no-clown-fiesta.nvim',
     config=function()
       vim.cmd[[colorscheme no-clown-fiesta]]
     end }

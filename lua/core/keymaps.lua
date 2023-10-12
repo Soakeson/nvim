@@ -21,13 +21,19 @@ vim.keymap.set('n', '<C-j>', '<C-w>j')
 vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set('n', '<C-l>', '<C-w>l')
 
+-- clear search --
 vim.keymap.set('n', '<leader>n', vim.cmd.nohl )
 
+-- yank to clipboard --
 vim.keymap.set('n', '<leader>y', '"+y')
 vim.keymap.set('v', '<leader>y', '"+y')
 vim.keymap.set('n', '<leader>d', '"_d')
 vim.keymap.set('n', '<leader>p', '"+p')
 
+-- toggle relative number --
+vim.keymap.set('n', '<leader>r', '<cmd>set relativenumber!<cr>')
+
 -- buffer line commands --
-vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext, {})
+vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext)
 vim.keymap.set('n', '<C-p>', vim.cmd.BufferLineCyclePrev)
+vim.keymap.set('n', '<C-d>', vim.cmd.BufferLinePickClose)
