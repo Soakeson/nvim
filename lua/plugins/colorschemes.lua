@@ -12,6 +12,8 @@ return {
   { 'tomasiser/vim-code-dark'},
   { 'ayu-theme/ayu-vim' },
   { 'kvrohit/rasmus.nvim' },
+  { 'AlexvZyl/nordic.nvim' },
+  { 'rose-pine/neovim' },
   { 'aktersnurra/no-clown-fiesta.nvim',
     config=function()
       vim.cmd[[colorscheme no-clown-fiesta]]

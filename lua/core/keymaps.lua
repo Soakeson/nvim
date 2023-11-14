@@ -24,11 +24,11 @@ vim.keymap.set('n', '<C-l>', '<C-w>l')
 -- clear search --
 vim.keymap.set('n', '<leader>n', vim.cmd.nohl )
 
--- yank to clipboard --
-vim.keymap.set('n', '<leader>y', '"+y')
-vim.keymap.set('v', '<leader>y', '"+y')
+-- yank and paste clipboard --
+vim.keymap.set('n', '<leader>y', '"*y')
+vim.keymap.set('v', '<leader>y', '"*y')
 vim.keymap.set('n', '<leader>d', '"_d')
-vim.keymap.set('n', '<leader>p', '"+p')
+vim.keymap.set('n', '<leader>p', '"*p')
 
 -- toggle relative number --
 vim.keymap.set('n', '<leader>r', '<cmd>set relativenumber!<cr>')
@@ -37,3 +37,10 @@ vim.keymap.set('n', '<leader>r', '<cmd>set relativenumber!<cr>')
 vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext)
 vim.keymap.set('n', '<C-p>', vim.cmd.BufferLineCyclePrev)
 vim.keymap.set('n', '<C-d>', vim.cmd.BufferLinePickClose)
+
+-- gitsigns commands --
+vim.keymap.set('n', ']c', '<cmd>Gitsigns next_hunk<cr>')
+vim.keymap.set('n', '[c', '<cmd>Gitsigns prev_hunk<cr>')
+vim.keymap.set('n', '<leader>hr', '<cmd>Gitsigns reset_hunk<cr>')
+vim.keymap.set('n', '<leader>hR', '<cmd>Gitsigns reset_buffer<cr>')
+vim.keymap.set('n', '<leader>tb', '<cmd>Gitsigns toggle_current_line_blame<cr>')
