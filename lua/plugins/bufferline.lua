@@ -6,18 +6,21 @@ return {
   require("bufferline").setup{
     options = {
         themable = true,
+        sparator_style = 'thick',
         offsets = {
-          filetype = 'NvimTree',
-          text = 'File Explorer',
-          text_align = 'center',
-          seprator = true,
+          {
+            filetype = 'NvimTree',
+            text = 'File Explorer',
+            text_align = 'center',
+            seprator = true,
+          }
         },
         hover = {
             enabled = true,
             delay = 150,
             reveal = {'close'}
         },
-      sparator_style = 'slant'
+        sort_by = 'directory'
     }
   }
   end

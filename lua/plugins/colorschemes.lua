@@ -14,6 +14,7 @@ return {
   { 'kvrohit/rasmus.nvim' },
   { 'AlexvZyl/nordic.nvim' },
   { 'rose-pine/neovim' },
+  { 'dasupradyumna/midnight.nvim' },
   { 'aktersnurra/no-clown-fiesta.nvim',
     config=function()
       vim.cmd[[colorscheme no-clown-fiesta]]

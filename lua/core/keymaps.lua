@@ -36,7 +36,7 @@ vim.keymap.set('n', '<leader>r', '<cmd>set relativenumber!<cr>')
 -- buffer line commands --
 vim.keymap.set('n', '<C-n>', vim.cmd.BufferLineCycleNext)
 vim.keymap.set('n', '<C-p>', vim.cmd.BufferLineCyclePrev)
-vim.keymap.set('n', '<C-d>', vim.cmd.BufferLinePickClose)
+vim.keymap.set('n', '<C-x>', vim.cmd.BufferLinePickClose)
 
 -- gitsigns commands --
 vim.keymap.set('n', ']c', '<cmd>Gitsigns next_hunk<cr>')
