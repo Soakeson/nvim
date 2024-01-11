@@ -1,5 +1,4 @@
 return {
-  { 'kxzk/skull-vim', },
   { 'rebelot/kanagawa.nvim' },
   { 'sainnhe/everforest' },
   { 'sainnhe/gruvbox-material' },
@@ -12,9 +11,11 @@ return {
   { 'tomasiser/vim-code-dark'},
   { 'ayu-theme/ayu-vim' },
   { 'kvrohit/rasmus.nvim' },
-  { 'AlexvZyl/nordic.nvim' },
-  { 'rose-pine/neovim' },
   { 'dasupradyumna/midnight.nvim' },
+  { 'kepano/flexoki-neovim' },
+  { 'savq/melange-nvim' },
+  { 'rombrom/fansi2' },
+  { 'folke/tokyonight.nvim' },
   { 'aktersnurra/no-clown-fiesta.nvim',
     config=function()
       vim.cmd[[colorscheme no-clown-fiesta]]
